@@ -1,0 +1,47 @@
+:root{
+    --cPrimario: #fff;
+    --cSecundario: #000;
+}
+
+html{
+    font-style: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    background-color: var(--cSecundario);
+}
+
+.formulario{
+    padding: 2rem;
+    width: 30%;
+    margin: 8rem auto;
+    background-color: #6E37B1;
+    border-radius: 1rem .5rem 2rem;
+}
+
+.formulario fieldset{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.formulario fieldset p{
+    text-align: center;
+}
+
+input{
+    display: block;
+    padding: 0.5rem;
+}
+
+input[type="submit"]{
+    margin-top: 1.5rem;
+}
+
